@@ -1,0 +1,30 @@
+.tableShow {
+    width: 600px;
+    /* aspect-ratio: 4; */
+    font-size: .8rem;
+    font-weight: bold;
+    border-width: .9rem;
+    border-style: solid;
+    border-color: #666 #222 #222 #666;
+    padding: .2rem;
+    margin: 1rem auto;
+    .arrows {
+        border-top: 1px solid #ccc;
+        padding-top: .5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .tableShow {
+        width: 500px;
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .tableShow {
+        width: 350px;
+        font-size: .6rem;
+    }
+}
